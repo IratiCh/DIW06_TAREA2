@@ -23,7 +23,7 @@ body {
 }
 
 footer {
-    margin-top: 20px;
+    margin-top: 2em;
     background-color: var(--backgroung-color);
     border-top: 1px solid var(--text-color2);
 }
@@ -40,8 +40,9 @@ video {
 
 video::cue {
     color: var(--text-color); /* Color del texto de los subtítulos */
-    background-color: var(--backgroung-color); /* Fondo semi-transparente para los subtítulos */
-    font-family: 'Arial', sans-serif; /* Fuente de los subtítulos */
+    background-color: var(--text-color2); /* Fondo semi-transparente para los subtítulos */
+    font-family: 'Quicksand', sans-serif; /* Fuente de los subtítulos */
+    margin-top: 2em;
     border-radius: 5px; /* Bordes redondeados para los subtítulos */
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); /* Sombra para hacer los subtítulos más visibles */
 }
