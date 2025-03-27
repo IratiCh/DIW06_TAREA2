@@ -37,13 +37,18 @@ video {
     border-radius: 10px; 
 }
 
-#subtitles {
-    margin-top: 10px;
-    text-align: center;
-    font-size: 18px;
-    font-family: Arial, sans-serif;
-    color: var(--text-color);
-    background-color: var(--backgroung-color);
-    padding: 5px;
+video::cue {
+    color: var(--text-color); /* Color del texto de los subtítulos */
+    background-color: rgba(0, 0, 0, 0.7); /* Fondo semi-transparente para los subtítulos */
+    font-size: 18px; /* Tamaño de la fuente */
+    font-family: 'Arial', sans-serif; /* Fuente de los subtítulos */
+    padding: 5px; /* Espaciado alrededor del texto */
+    border-radius: 5px; /* Bordes redondeados para los subtítulos */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); /* Sombra para hacer los subtítulos más visibles */
 }
 
+/* Personalización de la región de los subtítulos (fondo de los subtítulos) */
+video::cue-region {
+    background-color: var(--backgroung-color); /* Fondo de la región de los subtítulos */
+    border-radius: 8px; /* Bordes redondeados para la región */
+}
