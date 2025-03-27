@@ -37,6 +37,16 @@ video {
     border-radius: 10px; 
 }
 
+track {
+    margin-top: 10px;
+    text-align: center;
+    font-size: 18px;
+    font-family: Arial, sans-serif;
+    color: var(--text-color);
+    background-color: var(--backgroung-color);
+    padding: 5px;
+}
+
 .subtitles { 
     margin-top: 10px; 
 }
