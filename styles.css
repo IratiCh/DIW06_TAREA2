@@ -37,7 +37,7 @@ video {
     border-radius: 10px; 
 }
 
-track {
+#subtitles {
     margin-top: 10px;
     text-align: center;
     font-size: 18px;
@@ -47,6 +47,3 @@ track {
     padding: 5px;
 }
 
-.subtitles { 
-    margin-top: 10px; 
-}
